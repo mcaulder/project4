@@ -1,0 +1,40 @@
+img {
+
+    border-radius: .5em;
+    overflow: hidden;
+}
+
+.tweet{
+    display: block;
+    border: solid #f3f3f3 1px;
+   padding: 10px;
+
+
+}
+
+
+.tweet-header{
+    display: inline-block;
+}
+
+
+.tweet-content{
+ margin-left: 10px;
+}
+
+
+
+.twitter-pic{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {  {
+   [src^= "http"][class="twitter-pic"] {
+        width:60px;
+
+    }
+
+}
